@@ -6,31 +6,33 @@ This project focuses on developing a real-time Indian Sign Language (ISL) recogn
 
 ## 📁 Repository Structure
 
-.
-├── README.md
-├── cvt-model/ # Trained CvT model files (config and weights)
-│ ├── config.json
-│ └── model.safetensors
+```
+📁 Sign Language Recognition (Root)
+├── 📄 README.md
+├── 📁 cvt-model
+│   ├── 📄 config.json
+│   └── 📄 model.safetensors
 │
-├── data-collection/ # GUI tool to collect sign gesture data
-│ └── capture_frames.py
+├── 📁 data-collection
+│   └── 📄 capture_frames.py
 │
-├── inference/ # Real-time GUI-based inference application
-│ └── prototypeV5.py
+├── 📁 inference
+│   └── 📄 prototypeV5.py
 │
-├── pre-processing/ # Data augmentation and hand landmark extraction
-│ ├── image-augmentation.ipynb
-│ └── image-to-landmark.ipynb
+├── 📁 pre-processing
+│   ├── 📄 image-augmentation.ipynb
+│   └── 📄 image-to-landmark.ipynb
 │
-├── technical-report/ # Publications and final reports
-│ ├── Conference_Paper_ISL.pdf
-│ ├── FYP_Sign_Language_Recognition_Presentation.pdf
-│ └── FYP_Sign_Language_Recognition_Report.pdf
+├── 📁 technical-report
+│   ├── 📄 Conference_Paper_ISL.pdf
+│   ├── 📄 FYP_Sign_Language_Recognition_Presentation.pdf
+│   └── 📄 FYP_Sign_Language_Recognition_Report.pdf
 │
-└── training/ # Training pipelines for CvT, ViT, ResNet
-├── isl-cvt.ipynb
-├── isl-resnet50.ipynb
-└── isl-vit.ipynb
+└── 📁 training
+    ├── 📄 isl-cvt.ipynb
+    ├── 📄 isl-resnet50.ipynb
+    └── 📄 isl-vit.ipynb
+```
 
 
 ---
@@ -81,8 +83,8 @@ Includes:
 
 ---
 
-👥 Authors
-Ankan Dutta, Spandan Priyam Chetia
-Final Year Project – Indian Sign Language Recognition
-Department of Computer Science & Engineering
+Ankan Dutta <br />
+Final Year Project – Indian Sign Language Recognition using
+Convolutional Vision Transformers <br />
+Department of Computer Science & Engineering <br />
 NIT Silchar
