@@ -70,19 +70,9 @@ Includes:
 - 📄 Final thesis report
 - 🎓 Conference paper submission
 - 📊 Project presentation slides
-
 ---
 
-## 🧠 Core Technologies
-
-- **Convolutional Vision Transformers (CvT)**
-- **MediaPipe Hands** for landmark extraction
-- **OpenCV & Tkinter** for GUI applications
-- **PyTorch** for model training and inference
-- **Jupyter Notebooks** for modular experimentation
-
----
-
+## 👥Maintainer
 Ankan Dutta <br />
 Final Year Project – Indian Sign Language Recognition using
 Convolutional Vision Transformers <br />
