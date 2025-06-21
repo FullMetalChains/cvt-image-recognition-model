@@ -56,8 +56,6 @@ Model training pipelines for:
 - **ViT**: A baseline Vision Transformer model.
 - **ResNet50**: A CNN-based baseline for comparison.
 
-Each notebook includes data loading, training, evaluation, and model saving.
-
 ### 🔹 inference
 A real-time Tkinter + OpenCV app that:
 - Loads a trained model
